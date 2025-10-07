@@ -1,14 +1,11 @@
 [project]
-name = "quickstart"
+name = "prefect-etl-poc"
 version = "0.1.0"
-description = "A repo for getting started with Prefect."
-readme = "README.md"
+description = "Prefect ETL POC"
 requires-python = ">=3.10"
+
 dependencies = [
-    "prefect",
-    "prefect-cloud",
+    "prefect>=3.0.0",
+    "pandas>=2.2.0",
+    "pyarrow>=15.0.0"
 ]
-
-[project.scripts]
-quickstart-01-demo = "01_getting_started:main"
-

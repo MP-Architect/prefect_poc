@@ -1,0 +1,11 @@
+sale_id,product_id,quantity,unit_price,region
+1,P001,2,50,East
+2,P002,1,20,West
+3,P001,1,50,East
+4,P003,5,15,North
+5,P002,4,20,West
+6,P001,1,50,South
+7,P003,2,15,North
+8,P004,6,10,East
+9,P002,2,20,West
+10,P004,3,10,East
